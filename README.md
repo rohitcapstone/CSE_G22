@@ -1,4 +1,35 @@
 # Tour-Guide Chatbot
+This project is a Flask-based chatbot web application designed to assist users with tour-related queries, including travel recommendations, weather information, and general tour costs. It leverages OpenAI's GPT model for chatbot interactions and integrates with many other APIs useful for travelling.
+
+## Features:
+- Interactive Chatbot:
+  - Uses OpenAI's GPT model to provide personalized responses to user queries.
+- Dynamic Routing:
+  - Allows the chatbot to differentiate between normal (Eg. weather) and general tour queries.
+- Web Interface:
+  - Displays a user-friendly HTML front end for interaction.
+- API Endpoints:
+  - Includes RESTful endpoints to handle chatbot and weather queries programmatically.
+
+## Requirements:
+- Python 3.7+
+- Flask
+- OpenAI Python SDK
+- Requests libraries
+- API keys
+- Front-End with HTML
+- Running the application:
+  - Start Flask server with: python app.py
+
+## API Endpoints:
+- Home Route:
+  - URL: /
+  - Method: GET
+  - Description: Renders the main HTML page for user interaction.
+- Chatbot Endpoint:
+  - URL: /chatbot
+  - Method: POST
+  - Description: Accepts user input and returns chatbot responses.
 
 ## Algorithm used:
 The chatbot application employs a rule-based decision-making algorithm augmented by OpenAI's GPT model for natural language understanding and response generation.
