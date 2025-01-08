@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.aimprosoft.com/wp-content/uploads/2022/03/How-to-Make-a-Travel-Website-in-2022.png");
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chatbot-container {
+    width: 700px;
+    height: 600px;
+    background: #ff7231;
+    border-radius: 15px;
+    box-shadow: 0 20px 24px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.chat-body {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-image: url("https://images.stockcake.com/public/2/f/e/2fe053c7-cbeb-4e9c-8fc2-ad2898751586_large/sunset-flight-adventure-stockcake.jpg");
+}
+
+.chat-footer {
+    display: flex;
+    padding: 10px;
+    background: #ff7231;
+    border-top: 1px solid #ddd;
+}
+
+.chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.chat-footer button {
+    background: #da0000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-footer button:hover {
+    background: #ffaf03;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.user {
+    align-self: flex-end;
+    color: white;
+    background: hsl(29, 100%, 50%);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 70%;
+    word-wrap: break-word;
+    margin: 5px 0;
+}
+
+.bot {
+    align-self: flex-start;
+    color: black;
+    background: #e4e4e4;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 70%;
+    word-wrap: break-word;
+    margin: 5px 0;
+}
