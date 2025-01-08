@@ -70,5 +70,4 @@ The chatbot_response() function follows these steps:
   - Can add more specialized query types (e.g., currency conversion, flight costs) by expanding the keyword-based decision logic.
 - Customizability:
   - OpenAI's GPT model allows flexible system prompts, enabling the chatbot to adapt to different use cases.
-This combination of rule-based decision-making and AI-driven responses ensures both accuracy for structured tasks and versatility for open-ended queries.
   
